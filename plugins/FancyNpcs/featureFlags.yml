@@ -1,0 +1,6 @@
+feature-flags:
+  npc-attributes: false # Ability to modify several attributes of the npc entity
+  player-npcs: false # Every player can only manage the npcs they have created
+  use-fancyanalytics: false # Use FancyAnalytics to report plugin usage and errors
+  use-native-threads: false # Use native threads instead of virtual threads.
+  enable-debug-mode: false # Enable debug mode

@@ -1,0 +1,23 @@
+owner:
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
+admin:
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
+mod:
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
+media:
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
+vip+:
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
+vip:
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
+_DEFAULT_:
+    tabprefix: "&7"
+    tagprefix: "&7"
+    tabsuffix: "&7"
+    tagsuffix: "&7"

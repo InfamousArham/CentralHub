@@ -1,0 +1,8 @@
+Commands:
+  '0':
+    command: tellraw %PLAYER% "%PREFIX%&aYou found an treasure. &7(&e%TREASURES_FOUND%&7/&e%TREASURES_MAX%&7)"
+    enabled: true
+  '1':
+    command: minecraft:give %PLAYER% diamond
+    enabled: true
+config-version: 1.1

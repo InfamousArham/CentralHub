@@ -1,0 +1,8 @@
+Commands:
+  '0':
+    command: minecraft:give %PLAYER% diamond
+    enabled: true
+  '1':
+    command: tellraw %PLAYER% "%PREFIX%&6You found all treasures!"
+    enabled: true
+config-version: 1.1

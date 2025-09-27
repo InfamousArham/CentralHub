@@ -1,0 +1,191 @@
+config-version: 3.4
+
+# Change the language
+# Available: en (English) | de (German) | fr (France) | vn (Vietnamese) | bn (Bangla, Bengali) | zh (Simplified Chinese only messages no menus)
+messages-lang: en
+
+# Change the plugin name or the main purpose
+plugin-name-singular: treasure
+plugin-name-plural: treasures
+# The first command listed here is going to be the main command
+# IMPORTANT: COMMANDS WILL ONLY APPLY IF THE SERVER RESTARTS; A PLUGIN RELOAD WILL NOW CHANGE THIS!
+commands:
+    - treasurehunt
+    - treasures
+    - advancedhunt
+    - aeh
+    - easter
+
+# Auto download
+Download:
+    # Will be downloaded if a new plugin version is out
+    AdvancedHunt: false
+    # Will download for the plugin to work (This should not be disabled)
+    NBT-API: false
+    #  ProtocolLib: false
+    PlaceholderAPI: false
+# Enable ProtocolLib support (requires ProtocolLib plugin)
+#  ProtocolLibSupport: false
+
+prefix: "&F&F&9&7&0&DEgg Hunt &8→ "
+
+Settings:
+    # The sound volume for all sounds
+    SoundVolume: 3
+
+    # If a message should be sent if the plugin has a newer version
+    Updater: false
+
+    # If the player find on treasure he gets a reward
+    PlayerFoundOneEggRewards: false
+
+    # If the player find all treasures he gets a reward
+    PlayerFoundAllEggsReward: false
+
+    # Shows the coordinates in the progress inventory of the player
+    ShowCoordinatesWhenEggFoundInProgressInventory: false
+
+    # If a firework should spawn after clicking an treasure
+    ShowFireworkAfterEggFound: true
+
+    # How long the armor stands are visible after typing /%PLUGIN_COMMAND% show
+    ArmorstandGlow: 10
+
+    # In witch radius the player gets a message that he is near an treasure
+    ShowEggsNearbyMessageRadius: 10
+
+    # If the plugin prefix should show up
+    PluginPrefixEnabled: true
+
+    # If left-clicking an treasure works
+    LeftClickEgg: false
+
+    # If right-clicking an treasure works
+    RightClickEgg: true
+
+    # How many panes a player has to click before getting their reward
+    HintCount: 25
+
+    # How long the cooldown on the hint inventory is ( in seconds )
+    HintCooldownSeconds: 1800
+
+    # How long the update in the hint inventory is ( in ticks )
+    HintUpdateTime: 20
+
+    # If the cooldown should be applied to the hint command on a failed attempt
+    HintApplyCooldownOnFail: true
+
+Presets:
+    # Name of the preset that loads after placing a new treasure
+    DefaultIndividualPresetLoad: default
+
+    # Name of the preset that loads after creating a new collection
+    DefaultGlobalPresetLoad: default
+
+Sounds:
+    PlayerFindEggSound: ENTITY_PLAYER_LEVELUP
+    EggAlreadyFoundSound: ENTITY_VILLAGER_NO
+    AllEggsFoundSound: ENTITY_ENDER_DRAGON_DEATH
+    EggBreakSound: BLOCK_NOTE_BLOCK_BASS
+    EggPlaceSound: BLOCK_NOTE_BLOCK_BELL
+    ErrorSound: BLOCK_NOTE_BLOCK_BASEDRUM
+    InventoryClickSuccess: BLOCK_NOTE_BLOCK_CHIME
+    InventoryClickFailed: BLOCK_NOTE_BLOCK_HAT
+
+# Rarity's display how rare the item is that you found
+# It will show up when you find an item
+# Smallest number: 0.0000001
+send-rarity-messages: true
+Rarity:
+    common:
+        display: "&fCOMMON"
+        min: 50
+        max: 100
+    uncommon:
+        display: "&aUNCOMMON"
+        min: 10
+        max: 50
+    rare:
+        display: "&9RARE"
+        min: 1
+        max: 10
+    epic:
+        display: "&5EPIC"
+        min: 0.1
+        max: 1
+    legendary:
+        display: "&6LEGENDARY"
+        min: 0.005
+        max: 0.1
+    mythic:
+        display: "&dMYTHIC"
+        min: 1.0E-7 # 0.0000001
+        max: 0.005
+
+Particle:
+    enabled: true
+    type:
+        EggFound: CRIT
+        EggNotFound: VILLAGER_HAPPY
+
+# Change the messages that show up when no data for this placeholder is available
+PlaceholderAPI:
+    # Replacement for collection is null
+    collection: N/A
+    # Replacement if the player name is null
+    name: N/A
+    # Replacement if the count is null
+    count: "-1"
+
+# Add commands that cant be executed by the plugin
+BlacklistedCommands:
+    - op
+    - minecraft:op
+    - kill
+    - minecraft:kill
+    - summon
+    - minecraft:summon
+    - stop
+    - minecraft:stop
+    - restart
+    - minecraft:restart
+    - execute
+    - minecraft:execute
+    - setblock
+    - minecraft:setblock
+    - fill
+    - minecraft:fill
+    - reload
+    - minecraft:reload
+    - rl
+    - minecraft:rl
+
+Place:
+    # You can only use textures if the type is a player head
+    "0":
+        type: PLAYER_HEAD
+        texture: ZWNlZGRjMjNmOWQ5NmJhYWEwZDJkN2I5ZWMxODBjZDdiZWE1NDQ3ZDM5YzQyNWNhOWU0NGQ4ODA4ZWExMWVhMCJ9fX0=
+    "1":
+        type: PLAYER_HEAD
+        texture: ODYyMWE1MjY5ODY5ODQ3NTMxMDE1NjYzMDBhMzU2YjVmMzBkNjk3NWExZWZlNjI5YWJmMjY5NDc2NWQ5NmNjIn19fQ==
+    "2":
+        type: PLAYER_HEAD
+        texture: NmUzMmE3ZGU3YTY3MmNjNjhmYTdhMjcyYmFhNmE4OWViZDQ0MGMzMmRjZjQ0ZTc3MDU3MDY4OTg5MDQyZjdjNiJ9fX0=
+    "3":
+        type: PLAYER_HEAD
+        texture: NmI3NDQ2NTUwZjBmOTU3NmI3MzE3MjhiNWNiZWIyYmNlYTI1ZmQxYTU1NjBhMTdiMjM1N2U2MTZmYmM2NTYyMSJ9fX0=
+    "4":
+        type: PLAYER_HEAD
+        texture: ZmU2ZmFiMDkxZTQ5NmMwOTY5MTA0ODBkYTBkODVlZTkxOWJjNDlhYTMxNzc1Y2FkYmJmNTA1ZWY0MTFiNWY5NCJ9fX0=
+    "5":
+        type: PLAYER_HEAD
+        texture: ODUzMWNjMjY5YzhlNDcwNmU4OTJmOGEwZmIzNTFiMTA5MDE1NmIzZjYyNjFkODE2MzVkMDdhY2FkYmU2Y2UwZSJ9fX0=
+    "6":
+        type: PLAYER_HEAD
+        texture: YTZhNjA1MWY3ZjZmNDM5ZDhmMjE0YzIzNGU4ZTJjNDc3NjMwMDUyNDMyZTQyNjA3ZjA0MDRiODQwYjUzY2VhYiJ9fX0=
+    "7":
+        type: PLAYER_HEAD
+        texture: MjEzYjJlMjhlMDM3MTAwNzM5MTMwYjJlYjkwZWY0OTFjNmMzZGZmNWRlNTYxNWQyZjZkZmQxZTQ2YzljMmY3YyJ9fX0=
+    "8":
+        type: PLAYER_HEAD
+        texture: NTIzZDkyMmJlMGJhZTA1ZDBlN2I4OGU2NDljMTlmZTNiMmRhZTQzNjM5ZGRkMDljYjcxZTI4M2JmMDM0ZjY4OSJ9fX0=

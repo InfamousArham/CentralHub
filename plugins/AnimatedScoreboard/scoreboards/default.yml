@@ -1,0 +1,78 @@
+display:
+    title:
+        text:
+            - "&#FFF00F&lSKYZEN LOBBY"
+        random: false
+        interval: 5
+    date:
+        text:
+            - "&7%server_time_dd/MM/yyyy%"
+        random: false
+        interval: 400
+        score: 0
+    line-0:
+        text:
+            - ""
+        random: false
+        interval: 400
+        score: 0
+    line-1:
+        text:
+            - "&#FFF00F&lᴘʀᴏꜰɪʟᴇ"
+        random: false
+        interval: 400
+        score: 0
+    line-2:
+        text:
+            - "&#FFF00F☻&f Nick: &#FFF00F%player_name%"
+        random: false
+        interval: 400
+        score: 0
+    line-3:
+        text:
+            - "&#FFF00F⚓&f Rank: &#FFF00F%luckperms_primary_group_name%"
+        random: false
+        interval: 400
+        score: 0
+    line-4:
+        text:
+            - ""
+        random: false
+        interval: 400
+        score: 0
+    line-5:
+        text:
+            - "&#FFF00F&lꜱᴇʀᴠᴇʀꜱ"
+        random: false
+        interval: 400
+        score: 0
+    line-6:
+        text:
+            - "&#FFF00F🌊 &fFFA:&#FFF00F 0"
+        random: false
+        interval: 400
+        score: 0
+    line-7:
+        text:
+            - "&#FFF00F☔ &fRandomKits:&#FFF00F 0"
+        random: false
+        interval: 400
+        score: 0
+    line-8:
+        text:
+            - "&#FFF00F☄ &fSurival Games:&#FFF00F 0"
+        random: false
+        interval: 400
+        score: 0
+    line-12:
+        text:
+            - ""
+        random: false
+        interval: 400
+        score: 0
+    line-9:
+        text:
+            - "&7skyzen.live"
+        random: false
+        interval: 400
+        score: 0

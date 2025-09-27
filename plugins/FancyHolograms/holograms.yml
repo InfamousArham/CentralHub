@@ -1,0 +1,233 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  parkour-leaderboard:
+    type: TEXT
+    location:
+      world: world
+      x: 24.5
+      y: 66.0
+      z: 5.5
+      yaw: 90.0
+      pitch: 0.0
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: vertical
+    text:
+    - <#D85AFF><bold>Parkour Leaderboard</bold>
+    - <#D85AFF>1. <white>%ajpk_stats_top_name_1% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_1%
+    - <#D85AFF>2. <white>%ajpk_stats_top_name_2% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_2%
+    - <#D85AFF>3. <white>%ajpk_stats_top_name_3% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_3%
+    - <#D85AFF>4. <white>%ajpk_stats_top_name_4% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_4%
+    - <#D85AFF>5. <white>%ajpk_stats_top_name_5% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_5%
+    - <#D85AFF>6. <white>%ajpk_stats_top_name_6% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_6%
+    - <#D85AFF>7. <white>%ajpk_stats_top_name_7% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_7%
+    - <#D85AFF>8. <white>%ajpk_stats_top_name_8% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_8%
+    - <#D85AFF>9. <white>%ajpk_stats_top_name_9% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_9%
+    - <#D85AFF>10. <white>%ajpk_stats_top_name_10% <dark_gray>→ <#D85AFF>%ajpk_stats_top_score_10%
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+  discord:
+    type: TEXT
+    location:
+      world: world
+      x: -25.5
+      y: 66.12000274658203
+      z: 0.5
+      yaw: -90.0
+      pitch: 0.0
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: discord
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - ''
+    - ' Join our discord '
+    - '<#7E88F8> DISCORD.SKYZEN.LIVE '
+    - ''
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+  oneblock:
+    type: TEXT
+    location:
+      world: world
+      x: 4.5
+      y: 68.12000274658203
+      z: 9.5
+      yaw: -179.54817
+      pitch: -4.405641
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: oneblock
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <#02F31B><bold>OneBlock
+    - ''
+    - '<reset>Online Players: <#02F31B>0'
+    - '<reset>Season: <#02F31B>#1'
+    - ''
+    - <#02F31B>→ <white>ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ <#02F31B>←
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+  survival:
+    type: TEXT
+    location:
+      world: world
+      x: 0.5
+      y: 68.12000274658203
+      z: 10.5
+      yaw: -179.8064
+      pitch: -3.7364361
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: survival
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <#FFF00F><bold><underlined>ɴᴇᴡ</underlined>
+    - <#02C4F3><bold>Survival
+    - ''
+    - '<reset>Online Players: <#02C4F3>0'
+    - '<reset>Season: <#02C4F3>#1'
+    - ''
+    - <#02C4F3>→ <white>ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ <#02C4F3>←
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+  parkour:
+    type: TEXT
+    location:
+      world: world
+      x: 24.5
+      y: 67.12000274658203
+      z: 0.5
+      yaw: 90.254425
+      pitch: -3.0606587
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: parkour
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <#D85AFF><bold>Parkour</bold>
+    - ''
+    - '<reset>Online Players: <#D85AFF>%ajpk_jumping%'
+    - '<reset>Highscore: <#D85AFF>%ajpk_stats_highscore%'
+    - ''
+    - <#D85AFF>→ <white>ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ <#D85AFF>←
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+  store:
+    type: TEXT
+    location:
+      world: world
+      x: 0.5
+      y: 66.0
+      z: -8.5
+      yaw: 180.0
+      pitch: 90.0
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - ''
+    - ' Buy cosmetics and other '
+    - 'benefits in our store:'
+    - <#FFF00F>ꜱᴛᴏʀᴇ.ʏᴏᴜʀꜱᴇʀᴠᴇʀ.ᴄᴏᴍ
+    - ''
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+  creative:
+    type: TEXT
+    location:
+      world: world
+      x: -3.5
+      y: 68.12000274658203
+      z: 9.5
+      yaw: 179.29639
+      pitch: -1.9194808
+    visibility_distance: 48
+    visibility: ALL
+    persistent: true
+    linkedNpc: creative
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <#FFD00F><bold>Creative
+    - ''
+    - '<reset>Online Players: <#FFD00F>0'
+    - '<reset>Season: <#FFD00F>#1'
+    - ''
+    - <#FFD00F>→ <white>ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ <#FFD00F>←
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0

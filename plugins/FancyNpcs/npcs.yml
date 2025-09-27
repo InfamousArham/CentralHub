@@ -1,0 +1,110 @@
+npcs:
+  ab3c95ee-c668-4c91-8dbc-244d3b98fedc:
+    name: oneblock
+    creator: 35d8841f-8890-32c2-ad0a-3702062c4a02
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: 4.5
+      y: 66.0
+      z: 9.5
+      yaw: -179.54817
+      pitch: -4.405641
+    showInTab: false
+    spawnEntity: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    skin:
+      identifier: 16643d3c-a7f6-4c5f-81b3-10c1eab08ee3
+      variant: AUTO
+      mirrorSkin: false
+    collidable: true
+    interactionCooldown: 0.0
+    scale: 1.0
+    turnToPlayerDistance: -1
+    visibility_distance: -1
+  92e69b21-d901-4542-b0dc-f1d7338ed427:
+    name: survival
+    creator: 35d8841f-8890-32c2-ad0a-3702062c4a02
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: 0.5
+      y: 66.0
+      z: 10.5
+      yaw: -179.8064
+      pitch: -3.7364361
+    showInTab: false
+    spawnEntity: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    skin:
+      identifier: b22d0b43-350d-48db-9620-3a8ea58e03fd
+      variant: AUTO
+      mirrorSkin: false
+    collidable: true
+    interactionCooldown: 0.0
+    scale: 1.0
+    turnToPlayerDistance: -1
+    visibility_distance: -1
+  b5b4928d-dd9b-4fea-8904-15f201c30d47:
+    name: creative
+    creator: 35d8841f-8890-32c2-ad0a-3702062c4a02
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: -3.5
+      y: 66.0
+      z: 9.5
+      yaw: 179.29639
+      pitch: -1.9194808
+    showInTab: false
+    spawnEntity: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    skin:
+      identifier: fdaf82f2-69fb-4b39-9ae9-9de62f6e6e4f
+      variant: AUTO
+      mirrorSkin: false
+    collidable: true
+    interactionCooldown: 0.0
+    scale: 1.0
+    turnToPlayerDistance: -1
+    visibility_distance: -1
+  c1628e22-2471-4bd8-b3d4-a7bccccfbdac:
+    name: parkour
+    creator: 35d8841f-8890-32c2-ad0a-3702062c4a02
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: 24.5
+      y: 65.0
+      z: 0.5
+      yaw: 90.254425
+      pitch: -3.0606587
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    skin:
+      identifier: https://s.namemc.com/i/212dd1d9cafbb877.png
+      variant: AUTO
+      mirrorSkin: false
+    scale: 1.0
+    turnToPlayerDistance: -1
+    visibility_distance: -1
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: ajp start
